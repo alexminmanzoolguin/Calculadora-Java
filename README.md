@@ -9,6 +9,8 @@ fue una platica aplicamos nos enseñaron algunas tecnicas para hacer en java.
 ## en los conceptos basicos
 
 ![Practica](java/img/2022-02-10.png)
+
+segunda imagen 
 ![Practica1](java/img/2022-02-10 (5).png)
 
 - OPP: (progrmacion orientada a objetos) :
