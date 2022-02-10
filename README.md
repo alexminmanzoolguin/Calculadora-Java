@@ -8,12 +8,12 @@ fue una platica aplicamos nos enseñaron algunas tecnicas para hacer en java.
 
 
  ## practica imagen 1
- 
+
 ![Practica](java/img/2022-02-10.png)
 
 ## segunda imagen 
 
-![Practica1](java/img/2022-02-10 (5).png)
+![Practicauno](java/img/2022-02-10 (5).png)
 ## en los conceptos basicos
 - OPP: (progrmacion orientada a objetos) :
 un prpgrama que esta hecho de clases, con sus campos y metodos.
