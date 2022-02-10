@@ -13,7 +13,7 @@ fue una platica aplicamos nos enseñaron algunas tecnicas para hacer en java.
 
 ## segunda imagen 
 
-![Practicauno](java/img/2022-02-10 (5).png)
+![Practicauno](https://github.com/alexminmanzoolguin/Calculadora-Java/blob/main/java/img/2022-02-10%20(5).png)
 ## en los conceptos basicos
 - OPP: (progrmacion orientada a objetos) :
 un prpgrama que esta hecho de clases, con sus campos y metodos.
