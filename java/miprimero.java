@@ -5,6 +5,7 @@ public class miprimero{
     static int select=-1;
     static int valor1;
     static int valor2;
+
      public static void main(String[] args) {
          System.out.println("Manzo Olguin Alex Yamin");
          System.out.println("Bienvenidos a la calculadora");
@@ -20,34 +21,30 @@ public class miprimero{
                 System.out.println("0.Salir");
                 select=Integer.parseInt(scanner.nextLine());
 
-          
-
+                if(select == 0){
+                    System.out.println("adios");
+                    return;
+                }
+                pideNumeros();
+                Operacion op;
                 switch(select){
                     case 1:
-                    pideNumeros();
-                    Suma sum=new Suma(valor1,valor2);
-                    sum.Resultado();
+                    op=new Suma(valor1,valor2);
                         break;
                     case 2:
-                    pideNumeros();
-                    Resta res=new Resta(valor1,valor2);
-                    res.Resultado();
+                    op=new Resta(valor1,valor2);
                         break;
                     case 3:
-                    pideNumeros();
-                    Multipicacion mul=new Multipicacion(valor1,valor2);
-                    mul.Resultado();
+                    op=new Multipicacion(valor1,valor2);
                         break;
                     case 4:
-                    pideNumeros();
-                    Division div =new Division(valor1,valor2);
-                    div.Resultado();   
+                    op =new Division(valor1,valor2);
+                       
                         break;
-                    case 0:
-                    System.out.println("adios");
-                        break;
+                        default:
+                        op=new Operacion(valor1,valor2,'n');
                 }
-
+                op.Resultado();
             }catch(NumberFormatException e){
                 System.out.println("ocurrio un error");
 
